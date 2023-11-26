@@ -1,0 +1,41 @@
+<style>
+ 
+.kutu{
+ background-color: hsl(50, 58%, 12%);
+  widht: 300px;
+  height: 300px;
+  border: 4px solid #BDB76B;
+}
+
+* { box-sizing: border-box; }
+table { margin: 4px; }
+tr:first-child td {
+  border-top-color: #BDB76B;
+}
+tr:nth-child(3n) td {
+  border-bottom-color: #BDB76B;
+}
+td {
+  border: 4px solid rgb(100, 100, 100);
+  height: 35px;
+  width: 35px;
+}
+td:first-child {
+  border-left-color: #BDB76B;
+}
+td:nth-child(3n) {
+  border-right-color: #BDB76B;
+}
+input {
+  padding: 0;
+  text-align: center;
+  border: 0;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+input:hover {
+  background: #BDB76B;
+}
+</style>
